@@ -1,0 +1,23 @@
+<form action="" method="POST" novalidate>
+    {% csrf_token %}
+
+    
+    {% if form.non_field_errorsSS %}
+
+    {% for error in form.non_field_errorsSS %}
+
+    <p>{{error}}</p>
+
+    {% endfor %}
+
+    {% endif %}
+
+    {% for fm in form %}
+    {{fm.label_tag }} {{fm}} {{fm.erros|striptags}} <br><br>
+    {% endfor %}
+    <input type="submit" value="Login">
+
+
+    <a href="{% url 'registration' %}">registration</a>
+
+</form>

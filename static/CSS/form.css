@@ -1,0 +1,54 @@
+form{
+    margin-left: 20px;
+    border: 5px solid red;
+    padding: 15px;
+    background-color: beige;
+
+    
+
+}
+
+body{
+    background-color: rgb(124, 134, 124);
+}
+
+label{
+    color: rgb(9, 1, 1);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+input{
+    background-color:rgb(204, 209, 204) ;
+    width: 200px;
+}
+
+#customer_textarea{
+    background-color: rgb(202, 237, 237);
+}
+
+
+#customer_payments{
+
+    width: 75px;
+}
+
+#customer_Checkbox{
+    width: 20px;
+    height: 20px;
+}
+
+
+#customer_django{
+    width: 20px;
+    height: 20px;
+}
+
+
+.errorlist{
+    list-style-type: none;
+    color: red;
+    font-size: 16px;
+    font-weight: bolder;
+}
